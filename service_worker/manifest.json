@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"name": "API refs", 
+	"version": "1.0.0", 
+	"background": {
+		"service_worker": "service_worker.js", 
+		"type": "module"
+	}, 
+	"permissions": ["storage"], 
+	"minimum_chrome_version": "102", 
+	"omnibox": {
+		"keyword": "api"
+	}
+}
